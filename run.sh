@@ -26,4 +26,4 @@ if [ -d "/jsreport" ]; then
 fi
 
 su jsreport
-sudo node "/home/jsreport/server.js" --httpsPort=2945
+sudo node "/home/jsreport/server.js" "$@"
