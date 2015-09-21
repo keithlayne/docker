@@ -15,5 +15,5 @@ ADD run.sh /home/jsreport/run.sh
 
 RUN sudo npm install jsreport
 RUN sudo node node_modules/jsreport --init
-CMD ["bash", "/home/jsreport/run.sh"]
+ENTRYPOINT ["bash", "/home/jsreport/run.sh"]
 
